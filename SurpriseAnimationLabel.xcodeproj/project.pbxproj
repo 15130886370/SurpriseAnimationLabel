@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF1E4B326B2B3E80068D961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4B226B2B3E80068D961 /* AppDelegate.swift */; };
+		0CF1E4B526B2B3E80068D961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4B426B2B3E80068D961 /* SceneDelegate.swift */; };
+		0CF1E4B726B2B3E80068D961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4B626B2B3E80068D961 /* ViewController.swift */; };
+		0CF1E4BA26B2B3E80068D961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF1E4B826B2B3E80068D961 /* Main.storyboard */; };
+		0CF1E4BC26B2B3E90068D961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF1E4BB26B2B3E90068D961 /* Assets.xcassets */; };
+		0CF1E4BF26B2B3E90068D961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF1E4BD26B2B3E90068D961 /* LaunchScreen.storyboard */; };
+		0CF1E4EA26B2B4930068D961 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D126B2B4920068D961 /* ClassicSparkTrajectoryFactoryProtocol.swift */; };
+		0CF1E4EB26B2B4930068D961 /* ClassicFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D226B2B4920068D961 /* ClassicFireworkController.swift */; };
+		0CF1E4EC26B2B4930068D961 /* ClassicSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D326B2B4920068D961 /* ClassicSparkTrajectoryFactory.swift */; };
+		0CF1E4ED26B2B4930068D961 /* ClassicFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D426B2B4920068D961 /* ClassicFireworkAnimator.swift */; };
+		0CF1E4EE26B2B4930068D961 /* ClassicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D526B2B4920068D961 /* ClassicFirework.swift */; };
+		0CF1E4EF26B2B4930068D961 /* ImageSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D726B2B4920068D961 /* ImageSparkView.swift */; };
+		0CF1E4F026B2B4930068D961 /* PusheenSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4D826B2B4920068D961 /* PusheenSparkViewFactory.swift */; };
+		0CF1E4F126B2B4930068D961 /* SparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DA26B2B4920068D961 /* SparkTrajectory.swift */; };
+		0CF1E4F226B2B4930068D961 /* SparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DB26B2B4920068D961 /* SparkTrajectoryFactory.swift */; };
+		0CF1E4F326B2B4930068D961 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DC26B2B4920068D961 /* Firework.swift */; };
+		0CF1E4F426B2B4930068D961 /* SparkViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DD26B2B4920068D961 /* SparkViewAnimator.swift */; };
+		0CF1E4F526B2B4930068D961 /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DE26B2B4920068D961 /* SparkView.swift */; };
+		0CF1E4F626B2B4930068D961 /* SparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4DF26B2B4920068D961 /* SparkViewFactory.swift */; };
+		0CF1E4F726B2B4930068D961 /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E026B2B4920068D961 /* FireworkSpark.swift */; };
+		0CF1E4F826B2B4930068D961 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E226B2B4920068D961 /* CGPoint+Extensions.swift */; };
+		0CF1E4F926B2B4930068D961 /* SurpriseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E426B2B4930068D961 /* SurpriseShape.swift */; };
+		0CF1E4FA26B2B4930068D961 /* SurpriseAnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E526B2B4930068D961 /* SurpriseAnimationLabel.swift */; };
+		0CF1E4FB26B2B4930068D961 /* SurpriseAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E626B2B4930068D961 /* SurpriseAttributed.swift */; };
+		0CF1E4FC26B2B4930068D961 /* SurpriseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E726B2B4930068D961 /* SurpriseAnimation.swift */; };
+		0CF1E4FD26B2B4930068D961 /* Collection+wq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1E4E926B2B4930068D961 /* Collection+wq.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CF1E4AF26B2B3E80068D961 /* SurpriseAnimationLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseAnimationLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF1E4B226B2B3E80068D961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CF1E4B426B2B3E80068D961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CF1E4B626B2B3E80068D961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CF1E4B926B2B3E80068D961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CF1E4BB26B2B3E90068D961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CF1E4BE26B2B3E90068D961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CF1E4C026B2B3E90068D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF1E4D126B2B4920068D961 /* ClassicSparkTrajectoryFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactoryProtocol.swift; sourceTree = "<group>"; };
+		0CF1E4D226B2B4920068D961 /* ClassicFireworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkController.swift; sourceTree = "<group>"; };
+		0CF1E4D326B2B4920068D961 /* ClassicSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		0CF1E4D426B2B4920068D961 /* ClassicFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkAnimator.swift; sourceTree = "<group>"; };
+		0CF1E4D526B2B4920068D961 /* ClassicFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFirework.swift; sourceTree = "<group>"; };
+		0CF1E4D726B2B4920068D961 /* ImageSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkView.swift; sourceTree = "<group>"; };
+		0CF1E4D826B2B4920068D961 /* PusheenSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PusheenSparkViewFactory.swift; sourceTree = "<group>"; };
+		0CF1E4DA26B2B4920068D961 /* SparkTrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectory.swift; sourceTree = "<group>"; };
+		0CF1E4DB26B2B4920068D961 /* SparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		0CF1E4DC26B2B4920068D961 /* Firework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		0CF1E4DD26B2B4920068D961 /* SparkViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewAnimator.swift; sourceTree = "<group>"; };
+		0CF1E4DE26B2B4920068D961 /* SparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		0CF1E4DF26B2B4920068D961 /* SparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewFactory.swift; sourceTree = "<group>"; };
+		0CF1E4E026B2B4920068D961 /* FireworkSpark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
+		0CF1E4E226B2B4920068D961 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		0CF1E4E426B2B4930068D961 /* SurpriseShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseShape.swift; sourceTree = "<group>"; };
+		0CF1E4E526B2B4930068D961 /* SurpriseAnimationLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseAnimationLabel.swift; sourceTree = "<group>"; };
+		0CF1E4E626B2B4930068D961 /* SurpriseAttributed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseAttributed.swift; sourceTree = "<group>"; };
+		0CF1E4E726B2B4930068D961 /* SurpriseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseAnimation.swift; sourceTree = "<group>"; };
+		0CF1E4E926B2B4930068D961 /* Collection+wq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+wq.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF1E4AC26B2B3E80068D961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF1E4A626B2B3E80068D961 = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4B126B2B3E80068D961 /* SurpriseAnimationLabel */,
+				0CF1E4B026B2B3E80068D961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CF1E4B026B2B3E80068D961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4AF26B2B3E80068D961 /* SurpriseAnimationLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CF1E4B126B2B3E80068D961 /* SurpriseAnimationLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4E826B2B4930068D961 /* Extension */,
+				0CF1E4CF26B2B4920068D961 /* Fireworks */,
+				0CF1E4E326B2B4930068D961 /* Surprised */,
+				0CF1E4B226B2B3E80068D961 /* AppDelegate.swift */,
+				0CF1E4B426B2B3E80068D961 /* SceneDelegate.swift */,
+				0CF1E4B626B2B3E80068D961 /* ViewController.swift */,
+				0CF1E4B826B2B3E80068D961 /* Main.storyboard */,
+				0CF1E4BB26B2B3E90068D961 /* Assets.xcassets */,
+				0CF1E4BD26B2B3E90068D961 /* LaunchScreen.storyboard */,
+				0CF1E4C026B2B3E90068D961 /* Info.plist */,
+			);
+			path = SurpriseAnimationLabel;
+			sourceTree = "<group>";
+		};
+		0CF1E4CF26B2B4920068D961 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4D026B2B4920068D961 /* Classic Firework */,
+				0CF1E4D626B2B4920068D961 /* Pusheen Fireworks */,
+				0CF1E4D926B2B4920068D961 /* Model */,
+				0CF1E4E126B2B4920068D961 /* System Extensions */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		0CF1E4D026B2B4920068D961 /* Classic Firework */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4D126B2B4920068D961 /* ClassicSparkTrajectoryFactoryProtocol.swift */,
+				0CF1E4D226B2B4920068D961 /* ClassicFireworkController.swift */,
+				0CF1E4D326B2B4920068D961 /* ClassicSparkTrajectoryFactory.swift */,
+				0CF1E4D426B2B4920068D961 /* ClassicFireworkAnimator.swift */,
+				0CF1E4D526B2B4920068D961 /* ClassicFirework.swift */,
+			);
+			path = "Classic Firework";
+			sourceTree = "<group>";
+		};
+		0CF1E4D626B2B4920068D961 /* Pusheen Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4D726B2B4920068D961 /* ImageSparkView.swift */,
+				0CF1E4D826B2B4920068D961 /* PusheenSparkViewFactory.swift */,
+			);
+			path = "Pusheen Fireworks";
+			sourceTree = "<group>";
+		};
+		0CF1E4D926B2B4920068D961 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4DA26B2B4920068D961 /* SparkTrajectory.swift */,
+				0CF1E4DB26B2B4920068D961 /* SparkTrajectoryFactory.swift */,
+				0CF1E4DC26B2B4920068D961 /* Firework.swift */,
+				0CF1E4DD26B2B4920068D961 /* SparkViewAnimator.swift */,
+				0CF1E4DE26B2B4920068D961 /* SparkView.swift */,
+				0CF1E4DF26B2B4920068D961 /* SparkViewFactory.swift */,
+				0CF1E4E026B2B4920068D961 /* FireworkSpark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CF1E4E126B2B4920068D961 /* System Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4E226B2B4920068D961 /* CGPoint+Extensions.swift */,
+			);
+			path = "System Extensions";
+			sourceTree = "<group>";
+		};
+		0CF1E4E326B2B4930068D961 /* Surprised */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4E426B2B4930068D961 /* SurpriseShape.swift */,
+				0CF1E4E526B2B4930068D961 /* SurpriseAnimationLabel.swift */,
+				0CF1E4E626B2B4930068D961 /* SurpriseAttributed.swift */,
+				0CF1E4E726B2B4930068D961 /* SurpriseAnimation.swift */,
+			);
+			path = Surprised;
+			sourceTree = "<group>";
+		};
+		0CF1E4E826B2B4930068D961 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CF1E4E926B2B4930068D961 /* Collection+wq.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF1E4AE26B2B3E80068D961 /* SurpriseAnimationLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF1E4C326B2B3E90068D961 /* Build configuration list for PBXNativeTarget "SurpriseAnimationLabel" */;
+			buildPhases = (
+				0CF1E4AB26B2B3E80068D961 /* Sources */,
+				0CF1E4AC26B2B3E80068D961 /* Frameworks */,
+				0CF1E4AD26B2B3E80068D961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurpriseAnimationLabel;
+			productName = SurpriseAnimationLabel;
+			productReference = 0CF1E4AF26B2B3E80068D961 /* SurpriseAnimationLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CF1E4A726B2B3E80068D961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0CF1E4AE26B2B3E80068D961 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0CF1E4AA26B2B3E80068D961 /* Build configuration list for PBXProject "SurpriseAnimationLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CF1E4A626B2B3E80068D961;
+			productRefGroup = 0CF1E4B026B2B3E80068D961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF1E4AE26B2B3E80068D961 /* SurpriseAnimationLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CF1E4AD26B2B3E80068D961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF1E4BF26B2B3E90068D961 /* LaunchScreen.storyboard in Resources */,
+				0CF1E4BC26B2B3E90068D961 /* Assets.xcassets in Resources */,
+				0CF1E4BA26B2B3E80068D961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF1E4AB26B2B3E80068D961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF1E4EC26B2B4930068D961 /* ClassicSparkTrajectoryFactory.swift in Sources */,
+				0CF1E4FD26B2B4930068D961 /* Collection+wq.swift in Sources */,
+				0CF1E4F126B2B4930068D961 /* SparkTrajectory.swift in Sources */,
+				0CF1E4F526B2B4930068D961 /* SparkView.swift in Sources */,
+				0CF1E4F926B2B4930068D961 /* SurpriseShape.swift in Sources */,
+				0CF1E4FA26B2B4930068D961 /* SurpriseAnimationLabel.swift in Sources */,
+				0CF1E4FB26B2B4930068D961 /* SurpriseAttributed.swift in Sources */,
+				0CF1E4EF26B2B4930068D961 /* ImageSparkView.swift in Sources */,
+				0CF1E4FC26B2B4930068D961 /* SurpriseAnimation.swift in Sources */,
+				0CF1E4F826B2B4930068D961 /* CGPoint+Extensions.swift in Sources */,
+				0CF1E4B726B2B3E80068D961 /* ViewController.swift in Sources */,
+				0CF1E4F726B2B4930068D961 /* FireworkSpark.swift in Sources */,
+				0CF1E4F626B2B4930068D961 /* SparkViewFactory.swift in Sources */,
+				0CF1E4ED26B2B4930068D961 /* ClassicFireworkAnimator.swift in Sources */,
+				0CF1E4EE26B2B4930068D961 /* ClassicFirework.swift in Sources */,
+				0CF1E4B326B2B3E80068D961 /* AppDelegate.swift in Sources */,
+				0CF1E4F226B2B4930068D961 /* SparkTrajectoryFactory.swift in Sources */,
+				0CF1E4F026B2B4930068D961 /* PusheenSparkViewFactory.swift in Sources */,
+				0CF1E4F426B2B4930068D961 /* SparkViewAnimator.swift in Sources */,
+				0CF1E4EA26B2B4930068D961 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
+				0CF1E4EB26B2B4930068D961 /* ClassicFireworkController.swift in Sources */,
+				0CF1E4F326B2B4930068D961 /* Firework.swift in Sources */,
+				0CF1E4B526B2B3E80068D961 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CF1E4B826B2B3E80068D961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF1E4B926B2B3E80068D961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CF1E4BD26B2B3E90068D961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF1E4BE26B2B3E90068D961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CF1E4C126B2B3E90068D961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CF1E4C226B2B3E90068D961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CF1E4C426B2B3E90068D961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F6ZD6PADE;
+				INFOPLIST_FILE = SurpriseAnimationLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-547689219-qq.com.SurpriseAnimationLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CF1E4C526B2B3E90068D961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F6ZD6PADE;
+				INFOPLIST_FILE = SurpriseAnimationLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-547689219-qq.com.SurpriseAnimationLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF1E4AA26B2B3E80068D961 /* Build configuration list for PBXProject "SurpriseAnimationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF1E4C126B2B3E90068D961 /* Debug */,
+				0CF1E4C226B2B3E90068D961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF1E4C326B2B3E90068D961 /* Build configuration list for PBXNativeTarget "SurpriseAnimationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF1E4C426B2B3E90068D961 /* Debug */,
+				0CF1E4C526B2B3E90068D961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CF1E4A726B2B3E80068D961 /* Project object */;
+}
